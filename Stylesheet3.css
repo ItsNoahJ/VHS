@@ -39,12 +39,6 @@ h3 {
 }
 
 
-h4 {
-    position:absolute;
-    top:-21px;
-    left: -750px;
-}
-
 button1 {
     position:absolute;
     width:300px;
@@ -76,10 +70,18 @@ background-color: white;
 opacity: 0.3;
 }
 
-img {
+#image1 {
     position:absolute;
   top:150px;
-  left: 800px;
+  left: 825px;
+  width:480spx;
+  height:360px;
+}
+
+#image2  {
+    position:absolute;
+  top:150px;
+  left: 50px;
   width:480spx;
   height:360px;
 }
