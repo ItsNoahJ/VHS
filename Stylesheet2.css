@@ -1,0 +1,72 @@
+body {
+  background-color: white;
+    color: black;
+}
+
+
+h1{
+        text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+
+p {
+    text-align: center;
+}
+
+button1 {
+    position:absolute;
+    width:300px;
+    height:100px;
+    right:0;
+    left:69%;
+    bottom: 35%;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+
+button2 {
+       position:absolute;
+    width:300px;
+    height:100px;
+    right:0;
+    left:69%;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+
+iframe {
+        display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+button1:hover, button2:hover {
+background-color: white;
+opacity: 0.3;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
